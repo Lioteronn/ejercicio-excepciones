@@ -1,0 +1,8 @@
+-4; 2; Error: El número no puede ser negativo si el índice es par.
+4; -2; Error: El indice '-2.0' no puede ser negativo.
+4; 0; Error: El índice no puede ser 0.
+4; 2.5; Error: El índice '2.5' no puede ser un número decimal.
+-2; 100 ; Error: El número no puede ser negativo si el índice es par.
+1.7976931348623157E+328; 2; Error: El número excede el tamaño máximo de un número.
+2; 1.7976931348623157E+328; Error: El índice excede el tamaño máximo de un número.
+-1.7976931348623157E+328; 2; Error: El número no puede ser negativo si el índice es par.
